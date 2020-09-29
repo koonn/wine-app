@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "wine-app"
+version = "0.1.0"
+description = "Wine scoring app"
+authors = ["Takahiro Konno <t.konno@shishimaro.co.jp>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.19.2"
+pandas = "^1.1.2"
+sklearn = "^0.0"
+
+[tool.poetry.dev-dependencies]
+matplotlib = "^3.3.2"
+seaborn = "^0.11.0"
+ipykernel = "^5.3.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
