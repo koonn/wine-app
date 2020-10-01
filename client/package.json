@@ -12,6 +12,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@amcharts/amcharts4": "^4.10.4",
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/pwa": "^3.0.2",
     "core-js": "^3.6.5",
